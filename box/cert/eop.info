@@ -1,0 +1,61 @@
+SHA1 Fingerprint=9E:33:5D:29:BE:15:07:C2:04:20:DC:9E:AD:22:DF:F0:23:18:63:1C
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            e0:2e:26:d5:77:cb:16:33
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=Oregon, L=Portland, O=Acquia, OU=Professional Services, CN=*.eop.gov/emailAddress=noreply@example.com
+        Validity
+            Not Before: Oct 28 17:58:42 2015 GMT
+            Not After : Oct 25 17:58:42 2025 GMT
+        Subject: C=US, ST=Oregon, L=Portland, O=Acquia, OU=Professional Services, CN=*.eop.gov/emailAddress=noreply@example.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:ba:00:22:58:8f:ec:66:8b:a8:b0:9d:49:73:48:
+                    5f:bd:09:6c:f6:3f:58:90:6a:6b:41:9e:83:8a:54:
+                    69:aa:cd:f3:5a:fe:00:14:fe:69:9f:fa:17:ef:60:
+                    08:69:a4:67:e5:67:8f:48:1f:e4:8c:f0:90:5a:d9:
+                    73:2f:53:49:16:fb:24:2d:c2:7e:61:9c:32:90:a6:
+                    0f:de:8a:64:c4:06:f2:64:50:1a:62:4f:1b:0d:2d:
+                    87:2e:b3:56:03:ef:0c:92:63:e1:67:a4:41:c5:50:
+                    03:34:81:3b:d4:8f:d4:e1:40:be:2f:38:8a:5f:29:
+                    cf:f8:4d:e2:93:b5:b0:7d:61:c0:3d:54:ec:26:95:
+                    7f:7a:43:59:b6:7a:09:f8:2e:98:b5:59:e0:e4:f0:
+                    a1:30:1e:f9:62:7b:d2:45:8d:c5:2a:5c:9e:5b:9d:
+                    d8:44:23:d9:15:84:d4:24:d8:da:d5:11:e3:0c:f7:
+                    83:4c:ce:57:26:4c:0f:a3:c0:ba:15:d4:e1:65:5d:
+                    9c:23:2e:f1:f8:b0:98:4b:af:49:36:0a:a0:35:f9:
+                    bf:c1:5a:e0:ad:83:31:cf:15:a8:39:8f:56:11:88:
+                    19:e3:eb:dd:21:50:d0:e4:c0:63:3c:de:76:30:bb:
+                    69:42:4a:58:f7:a8:61:38:d8:64:4a:a8:99:81:1c:
+                    e6:c9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                E1:1C:B4:F2:95:38:CD:E7:5C:D1:23:F7:99:0C:DD:D5:57:48:58:1E
+            X509v3 Authority Key Identifier: 
+                keyid:E1:1C:B4:F2:95:38:CD:E7:5C:D1:23:F7:99:0C:DD:D5:57:48:58:1E
+                DirName:/C=US/ST=Oregon/L=Portland/O=Acquia/OU=Professional Services/CN=*.eop.gov/emailAddress=noreply@example.com
+                serial:E0:2E:26:D5:77:CB:16:33
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: sha1WithRSAEncryption
+        5e:c5:d5:68:64:dd:fc:e5:2f:46:ea:4e:04:eb:95:7a:fa:47:
+        2e:f2:3d:8f:0c:ad:c9:6c:f8:af:db:6b:07:52:f5:72:08:1e:
+        4b:23:45:0d:b6:42:2d:8b:e5:8f:dd:57:68:07:1c:c5:00:65:
+        24:13:d6:b7:96:fb:5f:b1:fa:aa:49:0a:7d:58:e9:10:39:d2:
+        f5:b8:f5:f4:7a:59:8f:02:7f:5d:b7:5c:1c:42:f0:08:de:86:
+        b7:24:2c:52:b8:0a:51:46:5a:d3:b1:67:0b:55:e7:63:2d:89:
+        83:00:f5:aa:c9:4d:f6:3b:67:cd:eb:f4:8b:98:6c:6c:dc:e5:
+        fb:4c:aa:2b:17:43:8d:22:53:94:b4:0e:d8:b7:16:d9:b1:ba:
+        79:f2:84:99:a8:84:06:be:0a:33:16:04:64:13:07:4c:d2:55:
+        a4:75:e5:06:97:02:92:f3:2c:50:87:38:4a:95:c5:49:d3:00:
+        e4:96:e2:22:3b:5a:82:1a:f1:0b:1f:be:45:83:54:0c:23:68:
+        2e:f4:cb:cd:ee:f8:58:f2:29:41:29:a3:f4:b7:8b:b1:29:e0:
+        4f:f5:b5:34:13:54:97:9b:fc:3c:9d:99:2c:6f:a1:ad:e6:13:
+        f4:b2:04:93:0a:94:da:dc:3c:82:77:30:c2:78:83:6c:a2:56:
+        82:50:76:f4
