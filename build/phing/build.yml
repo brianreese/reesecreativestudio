@@ -1,2 +1,5 @@
 blt:
-  new.dir: ${blt.root}
+  new.dir: ${blt.root}/../${project.machine_name}
+
+drush:
+  root: /var/www/reesecreative/build/docroot
