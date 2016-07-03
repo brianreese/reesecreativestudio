@@ -1,0 +1,14 @@
+uuid: ee6c290a-6e18-449c-ac1e-78983f251e03
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hero_page_reviewer
+  module:
+    - user
+id: user_remove_role_action.hero_page_reviewer
+label: 'Remove the Hero Page Reviewer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: hero_page_reviewer

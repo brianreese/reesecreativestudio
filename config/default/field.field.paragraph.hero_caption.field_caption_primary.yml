@@ -1,0 +1,21 @@
+uuid: a8b7b3f5-4fb1-4c00-87d7-ce83ac3a1577
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_caption_primary
+    - paragraphs.paragraphs_type.hero_caption
+  module:
+    - text
+id: paragraph.hero_caption.field_caption_primary
+field_name: field_caption_primary
+entity_type: paragraph
+bundle: hero_caption
+label: Caption
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

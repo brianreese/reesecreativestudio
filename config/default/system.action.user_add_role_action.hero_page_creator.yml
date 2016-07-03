@@ -1,0 +1,14 @@
+uuid: 9d9f83a8-88cc-4123-9de6-bf41e62aa5ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hero_page_creator
+  module:
+    - user
+id: user_add_role_action.hero_page_creator
+label: 'Add the Hero Page Creator role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: hero_page_creator

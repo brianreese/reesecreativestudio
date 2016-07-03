@@ -1,0 +1,19 @@
+uuid: 914166fc-8ade-4dff-a7e1-99c6042222f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hero_page.field_paragraphs
+    - node.type.hero_page
+  module:
+    - user
+id: node.hero_page.teaser
+targetEntityType: node
+bundle: hero_page
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_paragraphs: true

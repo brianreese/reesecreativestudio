@@ -1,0 +1,6 @@
+uuid: 9761e8e9-ed9f-40aa-a976-7064130c9edd
+langcode: en
+status: true
+dependencies: {  }
+id: hero_image
+label: Image

@@ -1,0 +1,25 @@
+uuid: 3b99803c-8f54-4dd5-9a35-a70a84b71159
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_column.field_component_paragraphs
+    - paragraphs.paragraphs_type.hero_column
+  module:
+    - entity_reference_revisions
+id: paragraph.hero_column.default
+targetEntityType: paragraph
+bundle: hero_column
+mode: default
+content:
+  field_component_paragraphs:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+hidden:
+  created: true
+  uid: true

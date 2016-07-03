@@ -1,0 +1,34 @@
+uuid: d8d4d22f-12c5-46f6-ac47-a229e206c8c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_image_edge.field_image
+    - field.field.paragraph.hero_image_edge.field_with_shadow
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.hero_image_edge
+  module:
+    - image
+    - workbench_moderation
+id: paragraph.hero_image_edge.default
+targetEntityType: paragraph
+bundle: hero_image_edge
+mode: default
+content:
+  field_image:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_with_shadow:
+    weight: 7
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
+hidden:
+  created: true
+  status: true
+  uid: true

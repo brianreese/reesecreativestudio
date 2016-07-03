@@ -1,0 +1,37 @@
+uuid: fa01cef6-5520-4ec1-9418-fc2da2ee7a58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero.field_background_color
+    - field.field.paragraph.hero.field_bg_image_full
+    - field.field.paragraph.hero.field_component_paragraphs
+    - paragraphs.paragraphs_type.hero
+  module:
+    - entity_reference_revisions
+    - image
+id: paragraph.hero.default
+targetEntityType: paragraph
+bundle: hero
+mode: default
+content:
+  field_bg_image_full:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_component_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_background_color: true
+  uid: true

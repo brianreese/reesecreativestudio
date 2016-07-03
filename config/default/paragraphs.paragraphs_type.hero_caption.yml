@@ -1,0 +1,6 @@
+uuid: 7f1a200a-aba8-4c1c-88b6-9a5b1bc25a7c
+langcode: en
+status: true
+dependencies: {  }
+id: hero_caption
+label: Caption

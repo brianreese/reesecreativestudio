@@ -1,0 +1,14 @@
+uuid: 2a3b7d4c-2ec8-465b-9380-1a758026f165
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hero_page_creator
+  module:
+    - user
+id: user_remove_role_action.hero_page_creator
+label: 'Remove the Hero Page Creator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: hero_page_creator

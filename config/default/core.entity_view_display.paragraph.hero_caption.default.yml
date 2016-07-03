@@ -1,0 +1,33 @@
+uuid: d4acfd8d-9809-4d5c-9a4d-1e91ae7d9f99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_caption.field_background_color
+    - field.field.paragraph.hero_caption.field_caption_primary
+    - paragraphs.paragraphs_type.hero_caption
+  module:
+    - color_field
+    - text
+id: paragraph.hero_caption.default
+targetEntityType: paragraph
+bundle: hero_caption
+mode: default
+content:
+  field_background_color:
+    weight: 1
+    label: hidden
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    type: color_field_formatter_text
+  field_caption_primary:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  created: true
+  uid: true

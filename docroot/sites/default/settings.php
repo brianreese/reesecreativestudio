@@ -246,6 +246,10 @@ $databases = array();
  */
 $config_directories = array();
 
+// Specify the config sync directory.
+$dir = dirname(DRUPAL_ROOT);
+$config_directories['sync'] = $dir . '/config/default';
+
 /**
  * Settings:
  *

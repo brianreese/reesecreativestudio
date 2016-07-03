@@ -1,0 +1,6 @@
+uuid: 50536ff7-04d9-4f8f-be05-0ce5f0ca7d8c
+langcode: en
+status: true
+dependencies: {  }
+id: hero_image_edge
+label: 'Edge Image'

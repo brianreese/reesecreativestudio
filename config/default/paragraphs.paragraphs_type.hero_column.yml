@@ -1,0 +1,6 @@
+uuid: 5db55684-2f38-4a7b-8355-12db6257651d
+langcode: en
+status: true
+dependencies: {  }
+id: hero_column
+label: Column

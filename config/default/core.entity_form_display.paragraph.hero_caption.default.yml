@@ -1,0 +1,35 @@
+uuid: 37cb77ec-3ed8-4af6-bea2-0e1234b20b02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_caption.field_background_color
+    - field.field.paragraph.hero_caption.field_caption_primary
+    - paragraphs.paragraphs_type.hero_caption
+  module:
+    - color_field
+    - text
+    - workbench_moderation
+id: paragraph.hero_caption.default
+targetEntityType: paragraph
+bundle: hero_caption
+mode: default
+content:
+  field_background_color:
+    weight: 7
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+    type: color_field_widget_default
+  field_caption_primary:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+hidden:
+  created: true
+  status: true
+  uid: true

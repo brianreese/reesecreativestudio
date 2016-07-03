@@ -1,0 +1,27 @@
+uuid: 4b1fbc6e-ccb9-4585-a535-45dc757cc71f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_image_edge.field_image
+    - field.field.paragraph.hero_image_edge.field_with_shadow
+    - paragraphs.paragraphs_type.hero_image_edge
+  module:
+    - image
+id: paragraph.hero_image_edge.default
+targetEntityType: paragraph
+bundle: hero_image_edge
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  created: true
+  field_with_shadow: true
+  uid: true

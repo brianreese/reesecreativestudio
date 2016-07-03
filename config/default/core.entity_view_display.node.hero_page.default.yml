@@ -1,0 +1,35 @@
+uuid: 4b252af5-d4b2-445e-857e-50e464a41d23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hero_page.field_paragraphs
+    - node.type.hero_page
+  module:
+    - entity_reference_revisions
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.hero_page.default
+targetEntityType: node
+bundle: hero_page
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

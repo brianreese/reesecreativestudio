@@ -1,0 +1,45 @@
+uuid: 774ad8e4-a8b2-496b-8542-9361a1793c72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_component_paragraphs
+    - paragraphs.paragraphs_type.hero
+    - paragraphs.paragraphs_type.hero_column
+  module:
+    - entity_reference_revisions
+id: paragraph.hero.field_component_paragraphs
+field_name: field_component_paragraphs
+entity_type: paragraph
+bundle: hero
+label: Columns
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero_column: hero_column
+    target_bundles_drag_drop:
+      hero:
+        weight: 3
+        enabled: false
+      hero_caption:
+        weight: 7
+        enabled: false
+      hero_column:
+        enabled: true
+        weight: 8
+      hero_featured:
+        weight: 9
+        enabled: false
+      hero_image_edge:
+        weight: 10
+        enabled: false
+      hero_image:
+        weight: 11
+        enabled: false
+field_type: entity_reference_revisions

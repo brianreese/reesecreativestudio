@@ -1,0 +1,25 @@
+uuid: b56700ba-9fb6-4b6c-9ff4-6c07ad952ef6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_image.field_image
+    - paragraphs.paragraphs_type.hero_image
+  module:
+    - image
+id: paragraph.hero_image.default
+targetEntityType: paragraph
+bundle: hero_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,27 @@
+uuid: ca47dfea-f660-4ac7-b92e-f7cd15acdb50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_column.field_component_paragraphs
+    - paragraphs.paragraphs_type.hero_column
+  module:
+    - paragraphs
+    - workbench_moderation
+id: paragraph.hero_column.default
+targetEntityType: paragraph
+bundle: hero_column
+mode: default
+content:
+  field_component_paragraphs:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+hidden:
+  created: true
+  status: true
+  uid: true
