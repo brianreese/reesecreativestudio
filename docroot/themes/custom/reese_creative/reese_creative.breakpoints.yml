@@ -1,0 +1,24 @@
+reese_creative.tablet:
+  label: tablet
+  mediaQuery: 'all and (min-width: 480px)'
+  weight: 1
+  multipliers:
+    - 1x
+reese_creative.desktop:
+  label: desktop
+  mediaQuery: 'all and (min-width: 720px)'
+  weight: 1
+  multipliers:
+    - 1x
+reese_creative.lt_tablet:
+  label: lt_tablet
+  mediaQuery: 'all and (max-width: 479px)'
+  weight: 2
+  multipliers:
+    - 1x
+reese_creative.lt_desktop:
+  label: lt_desktop
+  mediaQuery: 'all and (max-widthL 719px)'
+  weight: 2
+  multipliers:
+    - 1x

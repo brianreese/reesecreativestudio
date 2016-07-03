@@ -1,0 +1,21 @@
+name: Reese Creative
+type: theme
+description: The Reese Creative Theme
+package: Reese Creative
+core: 8.x
+libraries:
+  - reese_creative/global-styling
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  content: Content
+  header: Header
+  footer: Footer
+  content_top: Content Top
+  content_bottom: Content Bottom
+  page_top: Page Top
+  page_bottom: Page Bottom
+  sidebar_primary: Sidebar Primary
+  sidebar_secondary: Sidebar Secondary
