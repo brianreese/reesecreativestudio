@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a8513b8e740c1b41f374bf1b287fad8a",
-    "content-hash": "549084a70be48ff21921adca985da0fe",
+    "hash": "2ff3637fd9c2f58e90760a16802d1b04",
+    "content-hash": "c1abb08bf4fb542b69592c8924d1dac7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -883,6 +883,38 @@
             "time": "2016-06-09 08:18:22"
         },
         {
+            "name": "drupal/color_field",
+            "version": "8.2.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/color_field",
+                "reference": "feef4168166f0b7bce76cd176645094109ad40dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/color_field-8.x-2.0-rc1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/field": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-2.x": "8.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a color field type to store the color value and opacity",
+            "homepage": "https://www.drupal.org/project/color_field",
+            "time": "2015-11-13 22:20:39"
+        },
+        {
             "name": "drupal/config_update",
             "version": "8.1.1",
             "source": {
@@ -1542,6 +1574,31 @@
             "time": "2016-01-11 16:56:15"
         },
         {
+            "name": "drupal/libraries",
+            "version": "dev-8.x-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/libraries",
+                "reference": "79f31e209a1c4b3e31712e26d385a0806c14f3e5"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Allows version-dependent and shared usage of external libraries.",
+            "homepage": "http://drupal.org/project/libraries",
+            "time": "2016-06-15 11:38:34"
+        },
+        {
             "name": "drupal/lightning",
             "version": "8.1.00-rc7",
             "source": {
@@ -2121,7 +2178,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.0-rc5.zip",
-                "reference": null,
+                "reference": "bed1bddffdf03626ba057ab697635b049d8d98de",
                 "shasum": null
             },
             "require": {
@@ -6063,7 +6120,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/coder-8.x-2.7.zip",
-                "reference": null,
+                "reference": "a5b5f6b5769393a016da0d106a3b33f932c73331",
                 "shasum": null
             },
             "require": {
